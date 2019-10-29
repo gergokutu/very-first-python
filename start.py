@@ -60,4 +60,31 @@ print(phrase.index("Let"))
 # Replace do >> concatenate
 print(phrase.replace("do", "concatenate"))
 
+## Working with strings
+# +, -, %, ... 
 
+print(-2.01213)
+print(3 + 4.5)
+print(3 * (4 + 5))
+
+print(10 % 3)
+
+my_num = 5
+print(my_num)
+
+# Num to string
+print(str(my_num) + "hey")
+
+# Common math functions
+# absolute value...
+my_num = -5
+print(abs(my_num))
+
+# power >> hatvanyozas...
+print(pow(3, 2))
+
+print(max(4, 6))
+print(min(4, 6))
+
+print(round(3.2))
+print(round(3.7))
