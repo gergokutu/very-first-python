@@ -88,3 +88,13 @@ print(min(4, 6))
 
 print(round(3.2))
 print(round(3.7))
+
+# Importing math
+from math import *
+
+print(floor(5.7))
+print(ceil(4.2))
+
+# square root >> gyok
+# google different math functions
+print(sqrt(36))
