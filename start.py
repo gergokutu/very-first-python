@@ -12,10 +12,13 @@ print("  / |")
 print(" /  |")
 print("/___|")
 
-# variables > only: variable_name = "value"
+# variables >> only: variable_name = "value"
 character_name = "Pocok"
-character_age = "35"
-
+# not character_age = 35.5 >> cannot concatenate 'str' and 'int' objects...
+character_age = "35.5"
+# True needs to be capitol
+# not isMale but is_male
+is_male = True 
 print("There once was a man named " + character_name + ", ")
 print("he was " + character_age + " years old.")
 
