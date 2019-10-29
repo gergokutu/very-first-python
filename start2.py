@@ -2,4 +2,5 @@
 # Python start2.py vs pyhton3 start2.py
 # Does matter which interpeter you use!!!
 name = input("Enter your name: ")
-print("Hello " + name + "!")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age + ".")
