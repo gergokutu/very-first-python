@@ -34,6 +34,6 @@ print(cube_a_number(3))
 def power_a_number(number, power):
   return "The result is: " + str(pow(number, power)) + "."
 
-print(power_a_number(2, 4))
+print(power_a_number(3, 4))
 
 
