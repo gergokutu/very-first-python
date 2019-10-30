@@ -21,3 +21,19 @@ name = "Lulu"
 age = 18
 say_hello(name, age)
 say_hello("Bözske", 45)
+
+## Return statement >> to get info back from the func
+def cube_a_number(num):
+  # put return before num*num*num
+  return num*num*num
+
+# None without return in the func
+# 27 with return. Try!
+print(cube_a_number(3))
+
+def power_a_number(number, power):
+  return "The result is: " + str(pow(number, power)) + "."
+
+print(power_a_number(2, 4))
+
+
