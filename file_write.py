@@ -19,6 +19,7 @@
 webpage = open("index.html", "w")
 webpage.write("<DOCTYPE! html>")
 webpage.write("\n<html>")
+webpage.write("\n<head>")
 webpage.write("\n<title>---Python---</title>")
 webpage.write("\n</head>")
 webpage.write("\n<body>")
