@@ -7,3 +7,12 @@ while i <= 10:
   i += 1
 
 print("Done with loop")
+
+## Guessing Game >> password
+password = "shark"
+guess = ""
+
+while guess != password:
+  guess = input("Enter the password: ")
+
+print("Correct!")
