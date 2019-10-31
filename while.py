@@ -23,6 +23,8 @@ while guess != password and not(out_of_guesses):
   else:
     out_of_guesses = True
 
+# while loop can end with 2 different results
+# check it with a condition!
 if out_of_guesses:
   print("Out of guesses, YOU LOSE!")
 else:
