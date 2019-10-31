@@ -21,7 +21,12 @@ def translate2(phrase):
   for letter in phrase:
     # check if the letter is a vowel
     if letter.lower() in "aeiou":
-      translation.append("p")
+      # keep the uppercase
+      if letter.isupper():
+        translation.append("P")
+      else:
+        translation.append("p")
+
     else:
       translation.append(letter)
   return translation
