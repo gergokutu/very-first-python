@@ -15,6 +15,9 @@ for index in range(3, 10):
 for index in range(len(friends)):
   print(friends[index])
 
+# start with index = 0 till number in range
+# number in range is not included
+# so range(4) >> until 4...
 for index in range(5):
   if index == 0:
     print("First iteration")
