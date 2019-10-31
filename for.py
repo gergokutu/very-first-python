@@ -22,3 +22,13 @@ for index in range(5):
     print("Last iteration")
   else:
     print("Index is: " + str(index))
+  
+## exponent function with for loop
+# same as e.g. print(2**3)
+def raise_to_power(base_num, pow_num):
+  result = 1
+  for index in range(pow_num):
+    result = result * base_num
+  return result
+  
+print(raise_to_power(3, 2))
