@@ -60,7 +60,7 @@ print(phrase.index("Let"))
 # Replace do >> concatenate
 print(phrase.replace("do", "!!!concatenate!!!"))
 
-## Working with strings
+## Working with numbers
 # +, -, %, ... 
 
 print(-2.01213)
