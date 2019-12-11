@@ -91,6 +91,9 @@ print(round(3.7))
 
 # Importing math
 from math import *
+# to cease 'unused import' errors (51)
+# import only the necessary instead of everything (*)
+# from math import floor, ceil, sqrt
 
 print(floor(5.7))
 print(ceil(4.2))
