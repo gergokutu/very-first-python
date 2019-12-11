@@ -19,7 +19,7 @@ print(friends.count("Jim"))
 friends.sort()
 print(friends)
 
-lucky_numbers.sort(reverse=True)
+lucky_numbers.sort(reverse = True)
 print(lucky_numbers)
 
 friends2 = friends.copy()
