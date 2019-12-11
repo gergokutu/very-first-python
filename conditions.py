@@ -1,7 +1,7 @@
 ## If statement to decide
 # basic
 is_male = False # change it to False and run
-is_tall = False # change it to False and run
+is_tall = True # change it to False and run
 
 # : and indentation, not(), and/or...
 if is_male and is_tall:
