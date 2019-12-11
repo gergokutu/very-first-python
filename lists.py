@@ -12,6 +12,7 @@ print(friends[-1])
 print(friends[-2])
 print(friends[1:])
 print(friends[1:4])
+print(friends[:4])
 
 # Modify
 friends[0] = "Mirthil"
