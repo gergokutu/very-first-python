@@ -58,7 +58,7 @@ print(phrase.index("L"))
 print(phrase.index("Let"))
 
 # Replace do >> concatenate
-print(phrase.replace("do", "concatenate"))
+print(phrase.replace("do", "!!!concatenate!!!"))
 
 ## Working with strings
 # +, -, %, ... 
@@ -73,7 +73,7 @@ my_num = 5
 print(my_num)
 
 # Num to string
-print(str(my_num) + "hey")
+print(str(my_num) + "_hey")
 
 # Common math functions
 # absolute value...
@@ -89,11 +89,11 @@ print(min(4, 6))
 print(round(3.2))
 print(round(3.7))
 
-# Importing math
-from math import *
+# Importing math module (Mathematical functions)
 # to cease 'unused import' errors (51)
 # import only the necessary instead of everything (*)
-# from math import floor, ceil, sqrt
+# from math import *
+from math import floor, ceil, sqrt
 
 print(floor(5.7))
 print(ceil(4.2))
