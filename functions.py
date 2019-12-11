@@ -25,7 +25,7 @@ say_hello("Bözske", 45)
 ## Return statement >> to get info back from the func
 def cube_a_number(num):
   # put return before num*num*num
-  return num*num*num
+  return num * num * num
 
 # None without return in the func
 # 27 with return. Try!
