@@ -1,5 +1,5 @@
 for i in range(5):
-  print("Hello Mogyi! :) - written in Python3.8")
+  print("Hello Mogyi! :) - written in Python3.8 -" + "and the value of i is: " + str(i) + " :)")
 
 # Same with Javascript
 # for (let i = 0; i < 5; i++) {
@@ -24,7 +24,7 @@ print("he was " + character_age + " years old.")
 
 character_name = "Pista"
 print("He really liked the name " + character_name + ", ")
-print("but didn't like being " + character_age + ".")
+print("and also liked being " + character_age + ".")
 
 ## Working with strings
 # Escape character >> \ << "\n"...
