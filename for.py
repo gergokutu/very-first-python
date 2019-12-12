@@ -8,6 +8,7 @@ friends = ["Jimbo", "Pista", "Józsi", "Gizi"]
 for friend in friends:
   print(friend)
 
+# 3 is included but not 10
 for index in range(3, 10):
   print(index)
 
@@ -15,9 +16,9 @@ for index in range(3, 10):
 for index in range(len(friends)):
   print(friends[index])
 
-# start with index = 0 till number in range
+# start with index = 0 untill number in range >> 5
 # number in range is not included
-# so range(4) >> until 4...
+# so range(4) >> until 4... 0, 1, 2, 3
 for index in range(5):
   if index == 0:
     print("First iteration")
