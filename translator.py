@@ -26,7 +26,6 @@ def translate2(phrase):
         translation.append("P")
       else:
         translation.append("p")
-
     else:
       translation.append(letter)
   return translation
