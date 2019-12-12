@@ -15,10 +15,12 @@ monthConversions = {
   "Oct": "October",
   "Nov": "November",
   "Dec": "December",
+  0:  "Else"
 }
 
-# access
+## access
 print(monthConversions["Nov"])
+print(monthConversions[0])
 # key error
 # print(monthConversions["PPP"])
 print(monthConversions.get("March")) # defines default value
