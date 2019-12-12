@@ -1,4 +1,5 @@
 ## Dictionaries >> key-value pairs (objects)
+# all keys have to be unique (no 2 e.g. "Jan")
 # convert 3 digit month name into full month name!
 # pretty good use case for dictionary
 monthConversions = {
