@@ -10,7 +10,7 @@ student1 = Student("Pista", "Business", 3.1, False)
 student2 = Student2("Joli", "Art", 3.5)
 
 print(student1.name)
-print(student2.on_honor_roll)
+print(student2.on_honor_roll())
 
 # you can do objects and classes with anything...
 # you can model real world objects
