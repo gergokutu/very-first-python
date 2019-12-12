@@ -1,5 +1,6 @@
 class Student:
     # define the Student data type
+    # use the initialize function
     def __init__(self, name, major, points, is_on_probation):
         # assign some values
         self.name = name
