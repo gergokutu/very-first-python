@@ -16,3 +16,6 @@ class ChineseChef(Chef):
 
     def make_fried_rice(self):
         print("The chef makes fride rice")
+
+chinese1 = ChineseChef()
+chinese1.make_special_dish()
